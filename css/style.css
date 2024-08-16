@@ -928,6 +928,8 @@ a:focus {
     display: block;
     font-size: 22px;
     font-weight: 700;
+    margin: none;
+    padding: none;
 }
 
 .menu .menu-text h3::after {
@@ -943,8 +945,10 @@ a:focus {
 
 .menu .menu-text h3 span {
     display: inline-block;
-    float: left;
-    padding-right: 5px;
+    /* float: left; */
+    /* padding-right: 5px; */
+    margin: none;
+    padding: none;
     background: #ffffff;
 }
 
