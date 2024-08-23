@@ -2011,3 +2011,69 @@ a:focus {
 .footer .copyright p a:hover {
     color: #AD974F;
 }
+
+/* new menu  */
+/*******************************/
+/********** Menu Carousel CSS **********/
+/*******************************/
+.menu-carousel {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    margin: 45px 0;
+    background: rgba(0, 0, 0, .04);
+}
+
+.menu-carousel .menu-items-carousel {
+    position: relative;
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+}
+
+.menu-carousel .menu-item {
+    position: relative;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+    transition: .3s;
+    overflow: hidden;
+}
+
+.menu-carousel .menu-item:hover {
+    box-shadow: none;
+}
+
+.menu-carousel .menu-img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu-carousel .menu-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.menu-carousel .owl-dots {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #efc72a;
+}
+
+.menu-carousel .owl-dot.active {
+    background: #AD974F;
+}
